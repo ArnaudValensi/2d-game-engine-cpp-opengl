@@ -13,6 +13,10 @@ Features:
 - [ImGui](https://github.com/ocornut/imgui) integrated for dev tool ui
 - [Catch2](https://github.com/catchorg/Catch2) integrated for unit testing
 
+
+A Youtube video:
+[![C++ Game Engine](http://img.youtube.com/vi/UtbGPaAhflg/0.jpg)](https://www.youtube.com/watch?v=UtbGPaAhflg "++ Game Engine")
+
 ## Coding Style
 
 https://gist.github.com/Kerollmops/fcad27cfef9e3552cb75a3d201494ba6#why-we-need-coding-standards
