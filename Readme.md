@@ -21,9 +21,11 @@ A Youtube video:
 
 https://gist.github.com/Kerollmops/fcad27cfef9e3552cb75a3d201494ba6#why-we-need-coding-standards
 
+A `.clang-format` file is available.
+
 ## Build
 
 ```
 $ git clone --recursive git@github.com:ArnaudValensi/2d-game-engine-cpp-opengl.git
-$ mkdir build && cd build && cmake .. && make
+$ mkdir build && cd build && cmake .. && make -j
 ```
