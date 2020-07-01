@@ -4,20 +4,17 @@
 
 #pragma once
 
-
 #include "Rect.h"
 #include "Texture.h"
 #include "debug.h"
 
 class Sprite {
 private:
-    Texture* m_Texture;
-    Rect m_Rect;
+  Texture* m_Texture;
+  Rect m_Rect;
 
 public:
-    Sprite(Texture* texture, int x, int y, int width, int height);
-    [[nodiscard]] const Texture& GetTexture() const;
-    [[nodiscard]] Rect GetRect() const;
+  Sprite(Texture* texture, int x, int y, int width, int height);
+  [[nodiscard]] const Texture& GetTexture() const;
+  [[nodiscard]] Rect GetRect() const;
 };
-
-

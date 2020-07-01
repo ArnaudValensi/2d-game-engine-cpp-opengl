@@ -4,14 +4,11 @@
 
 #pragma once
 
-
 #include "Events.h"
 
 class DevUi {
 
 public:
-    void Draw();
-    void Update(const Events& events);
+  void Draw();
+  void Update(const Events& events);
 };
-
-

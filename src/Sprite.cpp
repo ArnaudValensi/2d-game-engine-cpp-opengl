@@ -5,14 +5,13 @@
 #include "Sprite.h"
 
 Sprite::Sprite(Texture* texture, int x, int y, int width, int height)
-        : m_Texture(texture), m_Rect(x, y, width, height) {
-
+    : m_Texture(texture), m_Rect(x, y, width, height) {
 }
 
 const Texture& Sprite::GetTexture() const {
-    return *m_Texture;
+  return *m_Texture;
 }
 
 Rect Sprite::GetRect() const {
-    return m_Rect;
+  return m_Rect;
 }

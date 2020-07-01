@@ -4,28 +4,25 @@
 
 #pragma once
 
-
-#include <vector>
+#include "Shader.h"
 #include <GL/gl3w.h>
 #include <glm/vec2.hpp>
-#include "Shader.h"
+#include <vector>
 
 struct Vertex {
-    glm::vec3 position;
-    glm::vec2 uv;
+  glm::vec3 position;
+  glm::vec2 uv;
 };
 
 class Mesh {
 private:
-    std::vector<Vertex> m_Vertices;
-    std::vector<uint32_t> m_Indices;
-    GLuint m_VA;
-    GLuint m_VB;
-    GLuint m_IB;
+  std::vector<Vertex> m_Vertices;
+  std::vector<uint32_t> m_Indices;
+  GLuint m_VA;
+  GLuint m_VB;
+  GLuint m_IB;
 
 public:
-    Mesh(std::vector<Vertex> vertices, std::vector<uint32_t> indices);
-    void Draw(bool wireframe);
+  Mesh(std::vector<Vertex> vertices, std::vector<uint32_t> indices);
+  void Draw(bool wireframe);
 };
-
-

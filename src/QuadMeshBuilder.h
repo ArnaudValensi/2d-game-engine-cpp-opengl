@@ -4,12 +4,9 @@
 
 #pragma once
 
-
 #include "Mesh.h"
 
 class QuadMeshBuilder {
 public:
-    static Mesh* BuildMesh();
+  static Mesh* BuildMesh();
 };
-
-
